@@ -55,6 +55,8 @@ body {
     font-size: 16px; /* Adjusted for size */
     margin-bottom: 25px; /* Fine-tuned spacing */
     margin-top: 10px;
+    pointer-events: none; /* Prevents clicks */
+    cursor: default;
 }
 
 .status {
